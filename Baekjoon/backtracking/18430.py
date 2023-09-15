@@ -10,6 +10,10 @@ n, m = map(int, input().split())
 
 board = [list(map(int, input().split())) for _ in range(n)]
 
+if n*m < 3:
+    print(0)
+    sys.exit(0)
+
 # ㄱ자 방향
 dx = (1, -1, 0, 0)
 dy = (0, 0, 1, -1)
@@ -19,10 +23,13 @@ visited = [[0]*m for _ in range(n)]
 
 ans = 0
 
-def backtracking(x, y):
+res = []
+
+def backtracking(x, y, cnt):
     global ans
 
-    ans += 2*board[x][y]
+    if cnt == 3:
+        res.append(ans)
 
     visited[x][y] = 1
 

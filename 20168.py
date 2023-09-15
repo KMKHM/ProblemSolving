@@ -25,7 +25,7 @@ tmp = sys.maxsize
 distance = [sys.maxsize] * (n+1)
 
 # 다익스트라 함수
-def dijkstra(start, end, ):
+def dijkstra(start, end):
     q = []
     distance[start] = 0
     heapq.heappush(q, [start, 0])
