@@ -5,58 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45103e90-55c1-4c00-9d23-685a7de88982" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon/11909.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/14226.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/aa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/backtracking/10597.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/backtracking/1062.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/backtracking/10971.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/backtracking/10974.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/backtracking/1174.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/backtracking/1182.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/backtracking/1189.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/backtracking/12908.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/backtracking/14712.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/backtracking/16174.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/backtracking/16987.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/backtracking/20208.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/backtracking/2529.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/backtracking/6443.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/bfs/16234.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/dfs/20924.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/dp/10844.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/dp/11053.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/dp/13707.Py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/dp/1890.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/dp/2839.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/greedy/11000.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/greedy/11399.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/greedy/1343.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/greedy/1758.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/greedy/1931.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/greedy/2109.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/greedy/2217.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/greedy/6987.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/implementation/10703.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/implementation/1316.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/implementation/15787.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/implementation/16926.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/implementation/18311.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/implementation/20436.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/implementation/20546.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/implementation/21939.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/implementation/2578.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/implementation/4396.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/implementation/5766.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/simulation/15685.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/양과 늑대.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/주차요금계산.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/hash/베스트앨범.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20168.py" beforeDir="false" afterPath="$PROJECT_DIR$/20168.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon/backtracking/1488.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/backtracking/1488.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon/backtracking/18430.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/backtracking/18430.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baekjoon/implementation/aa.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1374.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/greedy/1374.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/implementation/4396.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/implementation/4396.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +261,9 @@
       <workItem from="1694605196858" duration="5875000" />
       <workItem from="1694653502126" duration="2802000" />
       <workItem from="1694693871905" duration="2338000" />
-      <workItem from="1694739091189" duration="2974000" />
+      <workItem from="1694739091189" duration="4866000" />
+      <workItem from="1694753541998" duration="599000" />
+      <workItem from="1694839300843" duration="909000" />
     </task>
     <servers />
   </component>
@@ -428,7 +382,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$Sliding_Window_Maximum.coverage" NAME="Sliding Window Maximum Coverage Results" MODIFIED="1688541011345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sliding window" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1197.coverage" NAME="1197 Coverage Results" MODIFIED="1690290459130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mst" />
     <SUITE FILE_PATH="coverage/ProblemSolving$20208.coverage" NAME="20208 Coverage Results" MODIFIED="1693214865243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />
-    <SUITE FILE_PATH="coverage/ProblemSolving$1488.coverage" NAME="1488 Coverage Results" MODIFIED="1688274791634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backtracking" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$1488.coverage" NAME="1488 Coverage Results" MODIFIED="1694742490008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />
     <SUITE FILE_PATH="coverage/ProblemSolving$14889.coverage" NAME="14889 Coverage Results" MODIFIED="1688282045585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backtracking" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2877.coverage" NAME="2877 Coverage Results" MODIFIED="1691835392870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$16987.coverage" NAME="16987 Coverage Results" MODIFIED="1693362424251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />

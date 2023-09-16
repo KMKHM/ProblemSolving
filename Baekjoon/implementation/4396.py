@@ -36,8 +36,6 @@ for r in range(n):
         if mine[r][c] == "*":
             point.append((r, c))
 
-
-
 for r in range(n):
     for c in range(n):
         if board[r][c] == "x" and mine[r][c] == ".":
@@ -46,8 +44,6 @@ for r in range(n):
         if board[r][c] == "x" and mine[r][c] == "*":
             for a, b in point:
                 board[a][b] = "*"
-
-
 
 for a in range(n):
     for b in range(n):
