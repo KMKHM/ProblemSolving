@@ -2,47 +2,24 @@
 넴모넴모 (Easy)
 문제: https://www.acmicpc.net/problem/14712
 """
-n, m = map(int, input().split())
+n,m=map(int,input().split())
+nemo=[[0]*(m+1) for _ in range(n+1)]
+answer=0
 
-possible = 2 ** (n*m)
-
-impossible = 0
-
-visited = [[0]*m for _ in range(n)]
-
-dx = (1, -1, 0, 0, 1, -1, -1, 1)
-dy = (0, 0, -1, 1, 1, -1, 1, -1)
-
-def check(i, j):
-    cnt = 0
-    for k in range(6):
-        ni, nj = i + dx[k], j + dy[k]
-        if 0<=ni<n and 0<=nj<m:
-            if visited[ni][nj]:
-                cnt += 1
-                if cnt ==4:
-                    return True
-    return False
-
-
-
-def backtracking(x, y):
-    global impossible
-
-    if check(x, y):
-        impossible += 1
+def dfs(depth):
+    global answer
+    if(depth==n*m):
+        answer+=1
         return
+    x=depth//m+1
+    y=depth%m+1
 
-    for i in range(6):
-        nx, ny = x + dx[i], y + dy[i]
-        if 0 <= nx < n and 0 <= ny < m:
-            if not visited[nx][ny]:
-                visited[nx][ny] = 1
-                backtracking(nx, ny)
-                visited[nx][ny] = 0
-    visited[x][y] = 0
+    if(nemo[x-1][y]==0 or nemo[x-1][y-1]==0 or nemo[x][y-1]==0):
+        # 넴모를 놓을 수 있는 경우
+        nemo[x][y]=1
+        dfs(depth+1)
+        nemo[x][y]=0 #되돌아오면 다시 0
+    dfs(depth+1) # 넴모를 안 놓음
 
-
-backtracking(0, 0)
-
-print(impossible, possible)
+dfs(0)
+print(answer)
