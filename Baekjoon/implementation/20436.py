@@ -11,7 +11,7 @@ tmp = ""
 key = ["qwertyuiop", "asdfghjkl", "zxcvbnm"]
 
 
-left, right = ["q", "w", "e", "r","t" ,"a", "s", "d", "f", "g", "z", "x", "c", "v"], ["y","u","i","o","p","h","j","k","l","b","n","m"]
+left, right = ["q", "w", "e", "r", "t", "a", "s", "d", "f", "g", "z", "x", "c", "v"], ["y","u","i","o","p","h","j","k","l","b","n","m"]
 
 sl_index = [0, 0]
 for i in range(len(key)):
@@ -45,5 +45,3 @@ for i in range(len(s)):
 
 
 print(ans)
-
-
