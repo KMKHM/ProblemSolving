@@ -15,8 +15,11 @@ if n*m < 3:
     sys.exit(0)
 
 # ㄱ자 방향
-dx = (1, -1, 0, 0)
-dy = (0, 0, 1, -1)
+dir = {1: [(0, -1), (1, 0)],
+       2: [(0, -1), (-1, 0)],
+       3: [(0, 1), (1, 0)],
+       4: [(0, 1), (-1, 0)]}
+
 
 # 방문여부
 visited = [[0]*m for _ in range(n)]
@@ -25,25 +28,27 @@ ans = 0
 
 res = []
 
-def backtracking(x, y, cnt):
+def bt(x, y, val):
     global ans
 
-    if cnt == 3:
-        res.append(ans)
+    if y == m:
+        x, y = x+1, 0
+    if x == n:
+        ans = max(ans, val)
+        return
 
-    visited[x][y] = 1
+    if not visited[x][y]:
+        for i in range(1, 5):
+            udx, udy, rlx, rly = x + dir[i][0][0], y + dir[i][0][1], x + dir[i][1][0], y + dir[i][1][1]
+            if 0<=udx<n and 0<=udy<m and 0<=rlx<n and 0<=rly<m and not visited[udx][udy] and not visited[rlx][rly]:
+                visited[x][y], visited[udx][udy], visited[rlx][rly] = 1, 1, 1
+                bt(x, y + 1, val + board[x][y] * 2 + board[udx][udy] + board[rlx][rly])
+                visited[x][y], visited[udx][udy], visited[rlx][rly] = 0, 0, 0
+    bt(x, y + 1, val)
 
-    # 4방향
-    for i in range(4):
-        nx = x + dx[i]
-        ny = y + dy[i]
-        if 0<=nx<n and 0<=ny<m:
-            if not visited[nx][ny]:
-                visited[nx][ny] = 1
-                ans += board[nx][ny]
-                backtracking(nx, ny)
-                ans -= board[nx][ny]
-                visited[nx][ny] = 0
+
+bt(0, 0, 0)
+print(ans)
 
 
 

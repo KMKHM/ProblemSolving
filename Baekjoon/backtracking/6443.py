@@ -2,7 +2,7 @@
 애너그램
 문제: https://www.acmicpc.net/problem/6443
 """
-import sysㅌ
+import sys
 from collections import Counter
 
 input = sys.stdin.readline
@@ -15,6 +15,7 @@ def bt(level):
         return
 
     for i in visited:
+        # 방문할 수 있다면 백트래킹
         if visited[i]:
             res.append(i)
             visited[i] -= 1
@@ -23,8 +24,11 @@ def bt(level):
             res.pop()
 
 for _ in range(n):
+    # 입력받자마자 바로 정렬
     s = sorted(input().rstrip())
     res = []
+
+    # 방문여부를 맵으로 표시
     visited = Counter()
 
     for i in s:
