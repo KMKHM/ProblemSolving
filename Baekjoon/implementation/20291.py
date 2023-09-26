@@ -3,12 +3,13 @@
 문제: https://www.acmicpc.net/problem/20291
 """
 import sys
-from collections import Counter
+from collections import Counter, defaultdict
 
 input = sys.stdin.readline
 
 n = int(input())
 
+# 사전형
 dic = Counter()
 
 for _ in range(n):
@@ -19,3 +20,5 @@ key = sorted(dic.keys())
 
 for k in key:
     print(k, dic[k])
+
+print(dic2)
