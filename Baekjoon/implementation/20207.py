@@ -10,11 +10,7 @@ n = int(input())
 
 plan = []
 
-for _ in range(n):
-    a, b = map(int, input().split())
-    plan.append([a, b])
-
-plan.sort(key = lambda x:x[0])
+plan = sorted(list(map(int, input().split())) for _ in range(n))
 
 dic = dict()
 
@@ -28,6 +24,7 @@ for a, b in plan:
 
 ans = 0
 
+# 사각형의 가로, 세로
 width = list(dic.keys())
 height = list(dic.values())
 
@@ -45,7 +42,7 @@ for i in range(1, len(width)):
         h = height[i]
         w = 1
         tmp = width[i]
+
 ans += h*w
 
 print(ans)
-

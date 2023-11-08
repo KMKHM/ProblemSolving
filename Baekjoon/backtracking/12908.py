@@ -19,6 +19,6 @@ for _ in range(3):
     a, b, c, d = map(int, input().split())
     teleport.append([(a, b), (c, d)])
 
-def dfs(x, y):
+
 
 

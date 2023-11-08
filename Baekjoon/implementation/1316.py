@@ -3,11 +3,12 @@
 문제: https://www.acmicpc.net/problem/1316
 """
 import sys
-from collections import Counter
 
 input = sys.stdin.readline
 
 n = int(input())
+
+ans = 0
 
 def check(string):
     for i in range(len(string)-1):
@@ -17,11 +18,6 @@ def check(string):
             return False
     return True
 
-
-
-
-
-ans = 0
 
 for _ in range(n):
     s = input().rstrip()

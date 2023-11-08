@@ -3,7 +3,6 @@
 문제: https://www.acmicpc.net/problem/13908
 """
 import sys
-sys.setrecursionlimit(10**9)
 
 input = sys.stdin.readline
 
@@ -11,8 +10,7 @@ n, m = map(int, input().split())
 
 nums = list(input().split())
 
-not_nums = [str(i) for i in range(10)]
-
+# 정답
 ans = 0
 res = []
 def backtracking(level):

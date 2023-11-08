@@ -30,6 +30,7 @@ def backtracking(level, idx):
                     link += nums[i][j]
 
         diff = min(diff, abs(start - link))
+        return
 
     for i in range(idx, n):
         if not check[i]:
