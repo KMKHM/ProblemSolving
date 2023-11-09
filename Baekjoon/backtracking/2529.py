@@ -11,37 +11,34 @@ s = input().split()
 
 res = []
 
-def check(arr):
-    for k in range(len(arr)-1):
-        if s[k] == "<":
-            if not (arr[k] < arr[k+1]):
-                return False
-        else:
-            if not (arr[k] > arr[k+1]):
-                return False
+visited = [0] * 10
+
+def check(a, b, o):
+    if o == '<':
+        if a > b:
+            return False
+    if o == '>':
+        if a < b:
+            return False
     return True
-ans = []
-def bt(idx):
-    if idx == n+1:
-        ans.append(res[:])
+
+def bt(level, num):
+
+    if level == n + 1:
+        res.append(num)
         return
 
-    if len(res) > 1:
-        if not check(res):
-            return
-
     for i in range(10):
-        if i not in res:
-            res.append(i)
-            bt(idx+1)
-            res.pop()
+        if (level == 0 or check(num[level-1], str(i), s[level-1])) and not visited[i]:
+            visited[i] = 1
+            bt(level + 1, num + str(i))
+            visited[i] = 0
+
+bt(0, "")
+res.sort()
+print(res[-1])
+print(res[0])
 
 
-bt(0)
-def a(l):
-    tmp = ""
-    for i in l:
-        tmp += str(i)
-    return tmp
-print(a(ans[-1]))
-print(a(ans[0]))
+
+
