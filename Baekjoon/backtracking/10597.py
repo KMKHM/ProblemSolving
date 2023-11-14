@@ -24,18 +24,12 @@ for i, j in dic.items():
 
 nums = []
 
-target_sum = target * (target + 1) // 2
-
 def backtracking(char, idx):
 
     if idx == length:
         if target in nums:
-            if sum(nums) == target_sum:
-                print(*nums)
-                sys.exit(0)
-        return
-
-    if idx > length-1:
+            print(*nums)
+            sys.exit(0)
         return
 
     if int(s[idx]) not in nums and int(s[idx]) != 0:
@@ -43,7 +37,7 @@ def backtracking(char, idx):
         backtracking(char[idx+1:], idx+1)
         nums.pop()
 
-    if int(s[idx:idx+2]) <= target:
+    if int(s[idx:idx+2]) <= target and int(s[idx:idx+2]) not in nums and int(s[idx]) != 0:
         nums.append(int(s[idx:idx+2]))
         backtracking(char[idx+2:], idx+2)
         nums.pop()
