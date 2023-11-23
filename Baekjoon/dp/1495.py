@@ -8,28 +8,27 @@ input = sys.stdin.readline
 
 n, s, m = map(int, input().split())
 
-nums = list(map(int, input().split()))
+volume = list(map(int, input().split()))
 
-dp = [[0] * n for _ in range(n)]
+answer = -1
+
+dp = [[0] * (m+1) for _ in range(n+1)]
+
+# s는 무조건 1로 체크
+dp[0][s] = 1
 
 for i in range(n):
-    tmp1 = s + nums[i] if  (0 <= (s + nums[i]) <= m) else -1
-    tmp2 = s - nums[i] if  (0 <= (s - nums[i]) <= m) else -1
-
-    if tmp1 == -1 and tmp2 == -1:
-        print(-1)
-        print(dp)
-        sys.exit(0)
-    else:
-        if tmp1 == -1:
-            s = tmp2
-            dp[i][0] += tmp2
-        elif tmp2 == -1:
-            s = tmp1
-            dp[i][1] += tmp1
-        else:
-            dp[i][0] += tmp1
-            dp[i][1] += tmp2
+    for j in range(m+1):
+        if dp[i][j] == 1:
+            if j + volume[i] <= m:
+                dp[i+1][j+volume[i]] = 1
+            if j - volume[i] >= 0:
+                dp[i+1][j-volume[i]] = 1
 
 
-print(max(dp))
+for i in range(m+1):
+    if dp[n][i] == 1:
+        answer = i
+
+print(answer)
+
