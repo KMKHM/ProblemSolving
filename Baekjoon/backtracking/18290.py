@@ -25,20 +25,23 @@ def possible(a, b):
     return True
 
 
-def backtracking(cnt, val):
+def backtracking(x, y, cnt, val):
     global ans
 
     if cnt == k:
         ans = max(val, ans)
         return
+    # 오른쪽과 아래쪽으로만 탐색하게 된다.
+    for i in range(x, n):
+        for j in range(y if i == x else 0, m):
+            if check[i][j]:
+                continue
+            if not possible(i, j):
+                continue
+            check[i][j] = 1
+            backtracking(i, j, cnt + 1, val + board[i][j])
+            check[i][j] = 0
 
-    for i in range(n):
-        for j in range(m):
-            if not check[i][j] and possible(i, j):
-                check[i][j] = 1
-                backtracking(cnt + 1, val + board[i][j])
-                check[i][j] = 0
-
-backtracking(0, 0)
+backtracking(0, 0, 0, 0)
 
 print(ans)

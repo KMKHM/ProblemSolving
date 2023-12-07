@@ -51,3 +51,9 @@ def dfs(start1, start2, end1, end2, cnt, way):
 dfs(x, y, r, c, 0, "")
 
 print(answer)
+
+n, m = 4, 7
+x, y = 0, 3
+for i in range(x, n):
+    for j in range(y if i == x else 0, m):
+        print(i, j)

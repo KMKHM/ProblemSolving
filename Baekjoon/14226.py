@@ -3,40 +3,39 @@
 문제: https://www.acmicpc.net/problem/14226
 """
 import sys
+from collections import deque
+s = int(input())
 
-n = int(input())
+# 복사 => 1초
+# 붙여넣기 => 1초
+# 화면의 이모티콘 중 하나 삭제
 
-# 만약 2의 제곱수이면 => 제곱수 + 1 만큼 시간이 들고
-# 만약 특정 제곱수보다 사이에 있는 수면 그 더 작은 제곱수 직전 제곱수 계속 더해주면 된다?
+visited = dict()
 
-limit = [2**x for x in range(11)]
+# 복사 + 붙여넣기 => 2초
 
+def bfs(cur):
+    q = deque()
+    # 현재 개수, 클립보드에 있는 것
+    q.append([cur, 0])
+    visited[(cur, 0)] = 0
 
-
-if n in limit:
-    tmp = 2
-    for num in limit[1:]:
-        if n == num:
-            print(tmp)
+    while q:
+        # 현재 개수, 클립보드에 있는 개수,
+        now, clipboard = q.popleft()
+        if now == s:
+            print(visited[(now, clipboard)])
             sys.exit(0)
-        tmp += 2
-ans = 2
-t = 2
-if n % 2 == 1:
-    n -= 1
-    ans += 1
-    ans += 1
-    while 1:
-        t += 2
-        ans += 1
-        if t == n:
-            break
 
-else:
-    ans += 1
-    while 1:
-        t += 2
-        ans += 1
-        if t == n:
-            break
-print(ans)
+        # 복사
+        if (now, now) not in visited:
+            visited[(now, now)] = visited[(now, clipboard)] + 1
+            q.append((now, now))
+        if (now + clipboard, clipboard) not in visited:
+            visited[(now + clipboard, clipboard)] = visited[(now, clipboard)] + 1
+            q.append((now + clipboard, clipboard))
+        if (now - 1, clipboard) not in visited:
+            visited[(now - 1, clipboard)] = visited[(now, clipboard)] + 1
+            q.append((now - 1, clipboard))
+
+bfs(1)
