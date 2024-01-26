@@ -39,7 +39,3 @@ def bs(l, r):
             if temp_right - temp > value:
                 value = temp_right
                 k = m
-
-
-
-

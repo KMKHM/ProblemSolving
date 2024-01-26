@@ -1,31 +1,48 @@
-"""
-부분 수열의 합
-문제: https://www.acmicpc.net/problem/1182
-"""
-n, s = map(int, input().split())
+n, s = map(int,input().split())
+n_list = list(map(int,input().split()))
 
-
-visited = [0] * n
-nums = list(map(int, input().split()))
-
+cnt = 0
 res = []
 
-ans = 0
-def bt(level):
-    global ans
+visited = [0] * n
 
-    if level > 0:
-        if sum(res) == s:
-            ans += 1
+def dfs(num, ls):
+    global cnt
 
+    if num == n:
+        return
 
-    for i in range(level, n):
-        if not visited[i]:
-            visited[i] = 1
-            res.append(nums[i])
-            bt(i+1)
-            visited[i] = 0
-            res.pop()
-bt(0)
+    ls += n_list[num]
 
-print(ans)
+    res.append([num, ls])
+
+    if ls == s:
+        print(num)
+        print("-----")
+        cnt += 1
+
+    dfs(num + 1, ls)
+    dfs(num + 1, ls-n_list[num])
+
+dfs(0, 0)
+
+print(cnt)
+
+# 6 6
+# 1 2 3 4 5 6
+
+res.sort()
+
+print(res)
+
+# level , count
+
+# [0, 1]
+# # 안가고   가고
+# [1, 2], [1, 3]
+# # 3
+# [2, 3], [2, 4], [2, 5], [2, 6]
+#
+# [3, 4], [3, 5], [3, 6], [3, 7], [3, 7], [3, 8], [3, 9], [3, 10]
+# [4, 5], [4, 6], [4, 7], [4, 8], [4, 8], [4, 9], [4, 9], [4, 10], [4, 10], [4, 11], [4, 11], [4, 12], [4, 12], [4, 13], [4, 14], [4, 15]
+# [5, 6], [5, 7], [5, 8], [5, 9], [5, 9], [5, 10], [5, 10], [5, 11], [5, 11], [5, 11], [5, 12], [5, 12], [5, 12], [5, 13], [5, 13], [5, 13], [5, 14], [5, 14], [5, 14], [5, 15], [5, 15], [5, 15], [5, 16], [5, 16], [5, 16], [5, 17], [5, 17], [5, 18], [5, 18], [5, 19], [5, 20], [5, 21]
