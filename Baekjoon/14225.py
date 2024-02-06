@@ -8,27 +8,19 @@ input = sys.stdin.readline
 
 n = int(input())
 
-nums = list(map(int, input().split()))
+num = list(map(int, input().split()))
 
-check = [0] * (20 * 100000)
-visited = [0] * n
+check = [0] * (sum(num)+2)
 
-res = []
-def backtracking(level):
-    if level <= n:
-        check[sum(res)] = 1
+def bt(idx,sum):
+    if idx == n:
+       return
+    sum += num[idx]
+    check[sum] = 1
+    bt(idx+1, sum)
+    bt(idx+1, sum-num[idx])
 
-    for i in range(level, n):
-        if not visited[i]:
-            res.append(nums[i])
-            visited[i] = 1
-            backtracking(level + 1)
-            visited[i] = 0
-            res.pop()
 
-backtracking(0)
+bt(0, 0)
 
-for i in range(min(nums)):
-    if not check[i]:
-        print(i)
-        sys.exit(0)
+print(check[1:].index(0)+1)
