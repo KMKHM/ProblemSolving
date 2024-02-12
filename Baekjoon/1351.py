@@ -16,4 +16,5 @@ def recur(n):
     else:
         nums[n] = recur(n//p) + recur(n//q)
         return nums[n]
+
 print(recur(n))

@@ -6,46 +6,41 @@ import sys
 
 input = sys.stdin.readline
 
+# 마을크기, 초기 체력, 늘어나는 체력
 n, m, h = map(int, input().split())
 
 board = [list(map(int, input().split())) for _ in range(n)]
 
-visited = [[0]*n for _ in range(n)]
-
-dx, dy = (1, -1, 0, 0), (0, 0, 1, -1)
-
+# 집의 위치
 start = [0, 0]
+
+# 우유
+milk = []
 
 for i in range(n):
     for j in range(n):
         if board[i][j] == 1:
             start[0], start[1] = i, j
-            break
+        if board[i][j] == 2:
+            milk.append([i, j])
 
+# 정답
 answer = 0
+
 
 def dfs(x, y, a, cnt):
     global answer
 
-    if a == 0:
-        return
+    if abs(x-start[0]) + abs(y-start[1]) <= a:
+        answer = max(answer, cnt)
 
-    for i in range(4):
-        nx, ny = x + dx[i], y + dy[i]
-        if 0<=nx<n and 0<=ny<n:
-            if not visited[nx][ny]:
-                if board[nx][ny] == 2:
-                    visited[nx][ny] = 1
-                    board[nx][ny] = 0
-                    dfs(nx, ny, a -1 + h, cnt + 1)
-                    visited[nx][ny] = 0
-                elif board[nx][ny] == 0:
-                    visited[nx][ny] = 1
-                    dfs(nx, ny, a - 1, cnt)
-                    visited[nx][ny] = 0
-                else:
-                    answer = max(answer, cnt)
-                    return
+    for r, c in milk:
+        if board[r][c] == 2:
+            dis = abs(x-r) + abs(y-c)
+            if dis <= a:
+                board[r][c] = 0
+                dfs(r, c, a + h - dis, cnt + 1)
+                board[r][c] = 2
 
 dfs(start[0], start[1], m, 0)
 
