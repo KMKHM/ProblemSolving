@@ -12,49 +12,50 @@ n, m, x, y = map(int, input().split())
 # 그래프
 graph = [[] for _ in range(n)]
 
-# 간선
+
 for _ in range(m):
     a, b, c = map(int, input().split())
     graph[a].append([c, b])
     graph[b].append([c, a])
 
-# 거리
-dist = [sys.maxsize] * n
+distance = [sys.maxsize] * n
 
+# 다익스트라
 def dijkstra(start):
-    q = [[0, start]]
-    dist[start] = 0
+    q = []
+    heapq.heappush(q, [0, start])
+    distance[start] = 0
 
     while q:
-        now_cost, now = heapq.heappop(q)
+        cos, cur = heapq.heappop(q)
 
-        if dist[now] < now_cost:
+        if cos < distance[cur]:
             continue
 
-        for next_cost, next_ in graph[now]:
-            cost = next_cost + now_cost
-            if cost < dist[next_]:
-                dist[next_] = cost
-                heapq.heappush(q, [cost, next_])
+        for cos_n, nx in graph[cur]:
+            cost = cos + cos_n
+
+            if cost < distance[nx]:
+                distance[nx] = cost
+                heapq.heappush(q, [cost, nx])
 
 dijkstra(y)
 
-for k in dist:
-    if k == y:
-        continue
-    if k*2 > x:
+tmp = sorted([distance[i] for i in range(len(distance)) if i != y])
+
+day = 0
+
+ans = 0
+
+for i in range(len(tmp)):
+    if tmp[i] * 2 > x:
         print(-1)
         sys.exit(0)
 
-tmp = sum(dist) * 2
-
-answer = 1
-cur = 0
-for k in dist:
-    if cur + 2*k <= x:
-        cur += 2*k
+    if (day + tmp[i]) * 2 <= x:
+        day += tmp[i]
     else:
-        answer += 1
-        cur = 2*k
+        ans += 1
+        day = tmp[i]
 
-
+print(ans+1)

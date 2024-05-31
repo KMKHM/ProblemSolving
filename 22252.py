@@ -1,3 +1,8 @@
+"""
+정보 상인 호석
+문제: https://www.acmicpc.net/problem/22252
+"""
+
 import sys
 from collections import defaultdict
 
