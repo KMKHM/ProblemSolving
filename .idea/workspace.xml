@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45103e90-55c1-4c00-9d23-685a7de88982" name="Changes" comment="" />
+    <list default="true" id="45103e90-55c1-4c00-9d23-685a7de88982" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LeetCode/657. Robot Return to Origin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/1491. Average Salary Excluding the Minimum and Maximum Salary.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/1491. Average Salary Excluding the Minimum and Maximum Salary.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -483,6 +486,7 @@
       <workItem from="1719023961561" duration="3757000" />
       <workItem from="1719129218752" duration="3151000" />
       <workItem from="1719192569346" duration="4432000" />
+      <workItem from="1719282310010" duration="831000" />
     </task>
     <servers />
   </component>
