@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45103e90-55c1-4c00-9d23-685a7de88982" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon/topological_sort/14567.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/topological_sort/1766.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/topological_sort/2252.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/topological_sort/3665.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/twopointer/22945.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/topological_sort/20119.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/topological_sort/22947.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -503,7 +500,7 @@
       <workItem from="1719732473734" duration="9581000" />
       <workItem from="1719810405169" duration="1263000" />
       <workItem from="1719846204490" duration="7761000" />
-      <workItem from="1719978827973" duration="3834000" />
+      <workItem from="1719978827973" duration="12562000" />
     </task>
     <servers />
   </component>
@@ -792,6 +789,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$2533.coverage" NAME="2533 Coverage Results" MODIFIED="1703122981402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$18116.coverage" NAME="18116 Coverage Results" MODIFIED="1700532477153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/union-find" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1245.coverage" NAME="1245 Coverage Results" MODIFIED="1706838335616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$22947.coverage" NAME="22947 Coverage Results" MODIFIED="1720103505311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/topological_sort" />
     <SUITE FILE_PATH="coverage/ProblemSolving$14940.coverage" NAME="14940 Coverage Results" MODIFIED="1694960635132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bfs" />
     <SUITE FILE_PATH="coverage/ProblemSolving$12101.coverage" NAME="12101 Coverage Results" MODIFIED="1699578757233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2922.coverage" NAME="2922 Coverage Results" MODIFIED="1702428750898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
@@ -895,6 +893,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$2448.coverage" NAME="2448 Coverage Results" MODIFIED="1702864002406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$12908.coverage" NAME="12908 Coverage Results" MODIFIED="1694068950472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />
     <SUITE FILE_PATH="coverage/ProblemSolving$sam1.coverage" NAME="sam1 Coverage Results" MODIFIED="1704433913488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$20119.coverage" NAME="20119 Coverage Results" MODIFIED="1720104017369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/topological_sort" />
     <SUITE FILE_PATH="coverage/ProblemSolving$4.coverage" NAME="4 Coverage Results" MODIFIED="1700896843708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/kakako2023" />
     <SUITE FILE_PATH="coverage/ProblemSolving$20166.coverage" NAME="20166 Coverage Results" MODIFIED="1684227745190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backtracking" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2661_2.coverage" NAME="2661-2 Coverage Results" MODIFIED="1696391042208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />
