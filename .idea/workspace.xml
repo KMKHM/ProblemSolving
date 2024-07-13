@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45103e90-55c1-4c00-9d23-685a7de88982" name="Changes" comment="" />
+    <list default="true" id="45103e90-55c1-4c00-9d23-685a7de88982" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LeetCode/2751. Robot Collisions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -504,6 +507,8 @@
       <workItem from="1720522539632" duration="82000" />
       <workItem from="1720583426409" duration="167000" />
       <workItem from="1720670963237" duration="1248000" />
+      <workItem from="1720752478399" duration="70000" />
+      <workItem from="1720836062466" duration="55000" />
     </task>
     <servers />
   </component>
