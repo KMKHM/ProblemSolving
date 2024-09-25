@@ -1,20 +1,29 @@
 """
 집합의 표현
+문제: https://www.acmicpc.net/problem/11723
 """
 import sys
 
 input = sys.stdin.readline
 
-s = 0
+s = set()
 
-m = int(input())
+for _ in range(int(input())):
+    op = list(input().split())
 
-for _ in range(m):
-    operation = input().split()
-    if len(operation) == 1:
-        if operation[0] ==
+    if len(op) == 1:
+        s = set() if op[0] == "empty" else set(i for i in range(1, 21))
     else:
-        if operation[0] == "add":
-            m |= (1<<int(operation[1]))
-        elif operation[0] == "remove":
-            m &= ~(1<<int(operation[1]))
+        num = int(op[1])
+        if op[0] == "add":
+            s.add(num)
+        elif op[0] == "remove":
+            if num in s:
+                s.remove(num)
+        elif op[0] == "toggle":
+            if num in s:
+                s.remove(num)
+            else:
+                s.add(num)
+        else:
+            print(1 if num in s else 0)
