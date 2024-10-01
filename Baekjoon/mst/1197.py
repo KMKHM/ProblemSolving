@@ -4,6 +4,8 @@
 """
 import sys
 
+sys.setrecursionlimit(10**8)
+
 input = sys.stdin.readline
 
 v, e = map(int, input().split())
@@ -12,10 +14,10 @@ edge = []
 
 for _ in range(e):
     a, b, c = map(int, input().split())
-    edge.append((c, a, b))
+    edge.append((a, b, c))
 
 # 가중치로 정렬
-edge.sort()
+edge.sort(key=lambda x: x[2])
 
 # 부모 테이블
 parent = [i for i in range(v+1)]
@@ -24,15 +26,11 @@ parent = [i for i in range(v+1)]
 def find(x):
     if parent[x] == x:
         return x
-    parent[x] = find(parent[x])
-    return parent[x]
+    return find(parent[x])
 
 # union
 def union(a, b):
     root_a, root_b = find(a), find(b)
-
-    if root_a == root_b:
-        return
 
     if root_a < root_b:
         parent[root_b] = root_a
@@ -41,15 +39,9 @@ def union(a, b):
 
 answer = 0
 
-for c, a, b in edge:
+for a, b, c in edge:
     if find(a) != find(b):
         union(a, b)
         answer += c
 
 print(answer)
-
-
-
-
-
-
