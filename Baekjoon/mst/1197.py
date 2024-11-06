@@ -1,47 +1,32 @@
-"""
-최소 스패닝 트리
-문제: https://www.acmicpc.net/problem/1197
-"""
 import sys
 
-sys.setrecursionlimit(10**8)
-
+sys.setrecursionlimit(10**6)
 input = sys.stdin.readline
 
-v, e = map(int, input().split())
+V, E = map(int, input().split())
+Vroot = [i for i in range(V+1)]
+Elist = []
+for _ in range(E):
+    Elist.append(list(map(int, input().split())))
 
-edge = []
+Elist.sort(key=lambda x: x[2])
 
-for _ in range(e):
-    a, b, c = map(int, input().split())
-    edge.append((a, b, c))
 
-# 가중치로 정렬
-edge.sort(key=lambda x: x[2])
-
-# 부모 테이블
-parent = [i for i in range(v+1)]
-
-# find
 def find(x):
-    if parent[x] == x:
-        return x
-    return find(parent[x])
+    if x != Vroot[x]:
+        Vroot[x] = find(Vroot[x])
+    return Vroot[x]
 
-# union
-def union(a, b):
-    root_a, root_b = find(a), find(b)
-
-    if root_a < root_b:
-        parent[root_b] = root_a
-    else:
-        parent[root_a] = root_b
 
 answer = 0
-
-for a, b, c in edge:
-    if find(a) != find(b):
-        union(a, b)
-        answer += c
+for s, e, w in Elist:
+    sRoot = find(s)
+    eRoot = find(e)
+    if sRoot != eRoot:
+        if sRoot > eRoot:
+            Vroot[sRoot] = eRoot
+        else:
+            Vroot[eRoot] = sRoot
+        answer += w
 
 print(answer)

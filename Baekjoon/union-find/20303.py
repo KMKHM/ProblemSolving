@@ -3,6 +3,7 @@
 문제: https://www.acmicpc.net/problem/20303
 """
 import sys
+from collections import Counter
 
 input = sys.stdin.readline
 
@@ -19,8 +20,7 @@ parent = [i for i in range(n+1)]
 def find(x):
     if parent[x] == x:
         return x
-    parent[x] = find(parent[x])
-    return parent[x]
+    return find(parent[x])
 
 # union
 def union(a, b):
@@ -34,38 +34,21 @@ for _ in range(m):
     a, b = map(int, input().split())
     union(a, b)
 
-dic = dict()
-
-for p in range(1, n+1):
-    if parent[p] not in dic:
-        dic[parent[p]] = 1
-    else:
-        dic[parent[p]] += 1
-
-dic2 = dict()
+dic = Counter()
+dic2 = Counter()
 
 for i in range(1, n+1):
-    if parent[i] not in dic2:
-        dic2[parent[i]] = nums[i]
-    else:
-        dic2[parent[i]] += nums[i]
-print(dic)
-print(dic2)
+    # if i != parent[i]:
+    parent[i] = find(i)
+    dic[parent[i]] += 1
+    dic2[parent[i]] += nums[i]
 
-# dp = [[0]*k for _ in range(len(dic))]
-#
-# for node, val in dic.items():
-#     for j in range(1, k):
-#         weight = val
-#         value = dic2[node]
-#         if j < weight:
-#             dp[val][j] = dp[val-1][j]
-#         else:
-#             dp[val][j] = max(dp[val-1][j], dp[val-1][j-weight] + value)
-#
-# print(dp)
+ls = [[j, dic2[i]] for i, j in dic.items()]
 
+dp = [0] * (k+1)
 
+for w, v in ls:
+    for i in range(k, w-1, -1):
+        dp[i] = max(dp[i], dp[i-w] + v)
 
-
-
+print(dp[k-1])

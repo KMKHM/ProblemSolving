@@ -5,20 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45103e90-55c1-4c00-9d23-685a7de88982" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon/dp/2502.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/greedy/1439.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/hash/13414.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/hash/1620.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/hash/19583.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/hash/2776.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/hash/7785.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/hash/9375.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/implementation/11478.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/math/2417.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/prefixsum/10427.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/stack/2161.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1071.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14500.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20241031/14925.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20241031/1718.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20241031/20164.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2531.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2607.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9527.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/1360.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/1515.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/2342.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/bfs/13913.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/bfs/16946.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/bruteforce/16439.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/bruteforce/1969.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/bruteforce/2422.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/bruteforce/5568.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/deque/1021.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/dijkstra/11779.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/dp/11049.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/implementation/2922.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/implementation/4446.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/topological_sort/2623.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pandas/pd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uion_find.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/bfs/10026.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/bfs/10026.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/greedy/1092.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/greedy/1092.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Baekjoon/mst/1197.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/mst/1197.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baekjoon/union-find/20303.py" beforeDir="false" afterPath="$PROJECT_DIR$/Baekjoon/union-find/20303.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,35 +71,49 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.1021.executor": "Run",
     "Python.10427.executor": "Run",
     "Python.10431.executor": "Run",
+    "Python.1071.executor": "Run",
     "Python.10814.executor": "Run",
+    "Python.1092.executor": "Run",
+    "Python.11049.executor": "Run",
     "Python.11478.executor": "Run",
     "Python.1157.executor": "Run",
     "Python.11659.executor": "Run",
     "Python.11660.executor": "Run",
     "Python.11723.executor": "Run",
+    "Python.11779.executor": "Run",
     "Python.1197.executor": "Run",
     "Python.1205.executor": "Run",
     "Python.12908.executor": "Run",
     "Python.13144.executor": "Run",
     "Python.13301.executor": "Run",
     "Python.13414.executor": "Run",
+    "Python.1360.executor": "Run",
+    "Python.13913.executor": "Run",
     "Python.1406.executor": "Run",
     "Python.1439.executor": "Run",
     "Python.14494.executor": "Run",
+    "Python.14500.executor": "Run",
+    "Python.14925.executor": "Run",
     "Python.1515.executor": "Run",
     "Python.1522.executor": "Run",
     "Python.1620.executor": "Run",
+    "Python.16439.executor": "Run",
+    "Python.16946.executor": "Run",
     "Python.1711.executor": "Run",
+    "Python.1718.executor": "Run",
     "Python.17266.executor": "Run",
     "Python.19542.executor": "Run",
     "Python.19583.executor": "Run",
     "Python.19637.executor": "Run",
+    "Python.1969.executor": "Run",
     "Python.19941.executor": "Run",
     "Python.20006.executor": "Run",
     "Python.20125.executor": "Run",
     "Python.20301.executor": "Run",
+    "Python.20303.executor": "Run",
     "Python.20413.executor": "Run",
     "Python.20438.executor": "Run",
     "Python.2161.executor": "Run",
@@ -93,25 +123,36 @@
     "Python.22233.executor": "Run",
     "Python.2292.executor": "Run",
     "Python.2304.executor": "Run",
+    "Python.2342.executor": "Run",
     "Python.23971.executor": "Run",
     "Python.2417.executor": "Run",
+    "Python.2422.executor": "Run",
     "Python.2502.executor": "Run",
+    "Python.2531.executor": "Run",
     "Python.25757.executor": "Run",
+    "Python.2607.executor": "Run",
+    "Python.2623.executor": "Run",
     "Python.2758.executor": "Run",
     "Python.2776.executor": "Run",
     "Python.2816.executor": "Run",
+    "Python.2922.executor": "Run",
     "Python.2982.executor": "Run",
     "Python.4095.executor": "Run",
     "Python.4097.executor": "Run",
+    "Python.4446.executor": "Run",
     "Python.4659.executor": "Run",
     "Python.5073.executor": "Run",
     "Python.5549.executor": "Run",
+    "Python.5568.executor": "Run",
     "Python.7568.executor": "Run",
     "Python.7785.executor": "Run",
     "Python.8979.executor": "Run",
     "Python.9017.executor": "Run",
     "Python.9094.executor": "Run",
     "Python.9375.executor": "Run",
+    "Python.9527.executor": "Run",
+    "Python.pandas.executor": "Run",
+    "Python.pd.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -121,7 +162,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "preferences.externalTools",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -651,7 +692,25 @@
       <workItem from="1727698302340" duration="3748000" />
       <workItem from="1727740480459" duration="3102000" />
       <workItem from="1727743998976" duration="260000" />
-      <workItem from="1727762284445" duration="6913000" />
+      <workItem from="1727762284445" duration="9899000" />
+      <workItem from="1727831336329" duration="2011000" />
+      <workItem from="1727834003703" duration="1863000" />
+      <workItem from="1727839563750" duration="1345000" />
+      <workItem from="1728737523641" duration="2485000" />
+      <workItem from="1729261203588" duration="616000" />
+      <workItem from="1729320369861" duration="9889000" />
+      <workItem from="1729428787623" duration="6449000" />
+      <workItem from="1729518529768" duration="36000" />
+      <workItem from="1729563784389" duration="1695000" />
+      <workItem from="1729568923166" duration="1570000" />
+      <workItem from="1729845345415" duration="8000" />
+      <workItem from="1730290110683" duration="4038000" />
+      <workItem from="1730381537485" duration="7569000" />
+      <workItem from="1730504081345" duration="1500000" />
+      <workItem from="1730704352428" duration="1000" />
+      <workItem from="1730715414679" duration="2789000" />
+      <workItem from="1730738606127" duration="1841000" />
+      <workItem from="1730861645960" duration="6984000" />
     </task>
     <servers />
   </component>
@@ -714,8 +773,8 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$10431.coverage" NAME="10431 Coverage Results" MODIFIED="1727242202650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/sort" />
     <SUITE FILE_PATH="coverage/ProblemSolving$test.coverage" NAME="test Coverage Results" MODIFIED="1705418775355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />
     <SUITE FILE_PATH="coverage/ProblemSolving$19539.coverage" NAME="19539 Coverage Results" MODIFIED="1707138533363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
-    <SUITE FILE_PATH="coverage/ProblemSolving$6497.coverage" NAME="6497 Coverage Results" MODIFIED="1719193618712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/mst" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2617.coverage" NAME="2617 Coverage Results" MODIFIED="1687704056833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dfs" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$6497.coverage" NAME="6497 Coverage Results" MODIFIED="1719193618712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/mst" />
     <SUITE FILE_PATH="coverage/ProblemSolving$20007.coverage" NAME="20007 Coverage Results" MODIFIED="1712838132358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dijkstra" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1620.coverage" NAME="1620 Coverage Results" MODIFIED="1727774636213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/hash" />
     <SUITE FILE_PATH="coverage/ProblemSolving$16198.coverage" NAME="16198 Coverage Results" MODIFIED="1699493327257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />
@@ -731,25 +790,27 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$1469.coverage" NAME="1469 Coverage Results" MODIFIED="1691828941467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backtracking" />
     <SUITE FILE_PATH="coverage/ProblemSolving$11660.coverage" NAME="11660 Coverage Results" MODIFIED="1727662704043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/prefixsum" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2469.coverage" NAME="2469 Coverage Results" MODIFIED="1720146919202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$1071.coverage" NAME="1071 Coverage Results" MODIFIED="1729429525064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$pd.coverage" NAME="pd Coverage Results" MODIFIED="1730802488037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas" />
     <SUITE FILE_PATH="coverage/ProblemSolving$16928.coverage" NAME="16928 Coverage Results" MODIFIED="1679302571687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/ProblemSolving$11559.coverage" NAME="11559 Coverage Results" MODIFIED="1679480895785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/ProblemSolving$__.coverage" NAME="테이블 해시 함수 Coverage Results" MODIFIED="1679366077380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
-    <SUITE FILE_PATH="coverage/ProblemSolving$sam3.coverage" NAME="sam3 Coverage Results" MODIFIED="1704688038424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$13305.coverage" NAME="13305 Coverage Results" MODIFIED="1690445158882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/greedy" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$sam3.coverage" NAME="sam3 Coverage Results" MODIFIED="1704688038424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$17845.coverage" NAME="17845 Coverage Results" MODIFIED="1704332709452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dp" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1043.coverage" NAME="1043 Coverage Results" MODIFIED="1692078045399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/union-find" />
     <SUITE FILE_PATH="coverage/ProblemSolving$19951.coverage" NAME="19951 Coverage Results" MODIFIED="1720492711831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/prefixsum" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2866.coverage" NAME="2866 Coverage Results" MODIFIED="1721446220301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$20002.coverage" NAME="20002 Coverage Results" MODIFIED="1719893223114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dp" />
     <SUITE FILE_PATH="coverage/ProblemSolving$22949.coverage" NAME="22949 Coverage Results" MODIFIED="1701308471231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bfs" />
-    <SUITE FILE_PATH="coverage/ProblemSolving$17951.coverage" NAME="17951 Coverage Results" MODIFIED="1701744055769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/twopointer" />
     <SUITE FILE_PATH="coverage/ProblemSolving$16951.coverage" NAME="16951 Coverage Results" MODIFIED="1689039389659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/greedy" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$17951.coverage" NAME="17951 Coverage Results" MODIFIED="1701744055769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/twopointer" />
     <SUITE FILE_PATH="coverage/ProblemSolving$22944.coverage" NAME="22944 Coverage Results" MODIFIED="1696472722928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bfs" />
     <SUITE FILE_PATH="coverage/ProblemSolving$19637.coverage" NAME="19637 Coverage Results" MODIFIED="1727321785888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/simulation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$3649.coverage" NAME="3649 Coverage Results" MODIFIED="1707729940474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/binary_search" />
     <SUITE FILE_PATH="coverage/ProblemSolving$13460.coverage" NAME="13460 Coverage Results" MODIFIED="1696678679920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bfs" />
-    <SUITE FILE_PATH="coverage/ProblemSolving$1456.coverage" NAME="1456 Coverage Results" MODIFIED="1684200142958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1300.coverage" NAME="1300 Coverage Results" MODIFIED="1709623247629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$1456.coverage" NAME="1456 Coverage Results" MODIFIED="1684200142958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProblemSolving$9465.coverage" NAME="9465 Coverage Results" MODIFIED="1719755930594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dp" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1916.coverage" NAME="1916 Coverage Results" MODIFIED="1680348053617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2502.coverage" NAME="2502 Coverage Results" MODIFIED="1727743303547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dp" />
@@ -758,6 +819,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$1722.coverage" NAME="1722 Coverage Results" MODIFIED="1706850852872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$12933_2.coverage" NAME="12933-2 Coverage Results" MODIFIED="1695350294208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1976.coverage" NAME="1976 Coverage Results" MODIFIED="1690279499423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/union-find" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$2342.coverage" NAME="2342 Coverage Results" MODIFIED="1729334480933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$18113.coverage" NAME="18113 Coverage Results" MODIFIED="1690610761661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProblemSolving$15652.coverage" NAME="15652 Coverage Results" MODIFIED="1688268366752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backtracking" />
     <SUITE FILE_PATH="coverage/ProblemSolving$17404.coverage" NAME="17404 Coverage Results" MODIFIED="1696247344022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dp" />
@@ -765,8 +827,8 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$1394.coverage" NAME="1394 Coverage Results" MODIFIED="1708770852660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$10971.coverage" NAME="10971 Coverage Results" MODIFIED="1694655230462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1325.coverage" NAME="1325 Coverage Results" MODIFIED="1680059177433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
-    <SUITE FILE_PATH="coverage/ProblemSolving$2448.coverage" NAME="2448 Coverage Results" MODIFIED="1702864002406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$30022.coverage" NAME="30022 Coverage Results" MODIFIED="1696149886843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/greedy" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$2448.coverage" NAME="2448 Coverage Results" MODIFIED="1702864002406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1157.coverage" NAME="1157 Coverage Results" MODIFIED="1727103917410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/simulation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$23971.coverage" NAME="23971 Coverage Results" MODIFIED="1727160809129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/simulation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$11048.coverage" NAME="11048 Coverage Results" MODIFIED="1689816801493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
@@ -827,9 +889,10 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$25757.coverage" NAME="25757 Coverage Results" MODIFIED="1727246466735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/simulation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$22947.coverage" NAME="22947 Coverage Results" MODIFIED="1720103505311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/topological_sort" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2816.coverage" NAME="2816 Coverage Results" MODIFIED="1727437191117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/simulation" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$2623.coverage" NAME="2623 Coverage Results" MODIFIED="1729420335779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/topological_sort" />
     <SUITE FILE_PATH="coverage/ProblemSolving$11909.coverage" NAME="11909 Coverage Results" MODIFIED="1692856699269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2302.coverage" NAME="2302 Coverage Results" MODIFIED="1691030486985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
-    <SUITE FILE_PATH="coverage/ProblemSolving$2531.coverage" NAME="2531 Coverage Results" MODIFIED="1706258798314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/twopointer" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$2531.coverage" NAME="2531 Coverage Results" MODIFIED="1728739452748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProblemSolving$14940.coverage" NAME="14940 Coverage Results" MODIFIED="1694960635132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bfs" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2666.coverage" NAME="2666 Coverage Results" MODIFIED="1721742055431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dp" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1927.coverage" NAME="1927 Coverage Results" MODIFIED="1703640332442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/heap" />
@@ -868,10 +931,12 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$17291.coverage" NAME="17291 Coverage Results" MODIFIED="1708695176124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$11053.coverage" NAME="11053 Coverage Results" MODIFIED="1692196099937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dp" />
     <SUITE FILE_PATH="coverage/ProblemSolving$12865.coverage" NAME="12865 Coverage Results" MODIFIED="1690876397713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$pandas.coverage" NAME="pandas Coverage Results" MODIFIED="1730802214313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandas" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1527.coverage" NAME="1527 Coverage Results" MODIFIED="1701394732510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$10597.coverage" NAME="10597 Coverage Results" MODIFIED="1699841146312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />
     <SUITE FILE_PATH="coverage/ProblemSolving$20207.coverage" NAME="20207 Coverage Results" MODIFIED="1697077240322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$11723.coverage" NAME="11723 Coverage Results" MODIFIED="1727234897962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bitmasking" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$14925.coverage" NAME="14925 Coverage Results" MODIFIED="1730386974566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20241031" />
     <SUITE FILE_PATH="coverage/ProblemSolving$12__Integer_to_Roman.coverage" NAME="12. Integer to Roman Coverage Results" MODIFIED="1706348087962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProblemSolving$12893.coverage" NAME="12893 Coverage Results" MODIFIED="1703556997445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/union-find" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2141.coverage" NAME="2141 Coverage Results" MODIFIED="1691646465244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/greedy" />
@@ -884,6 +949,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$1644.coverage" NAME="1644 Coverage Results" MODIFIED="1705046066030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/twopointer" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1774.coverage" NAME="1774 Coverage Results" MODIFIED="1690301510682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mst" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2615.coverage" NAME="2615 Coverage Results" MODIFIED="1696558958460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$9527.coverage" NAME="9527 Coverage Results" MODIFIED="1729340083380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProblemSolving$20546.coverage" NAME="20546 Coverage Results" MODIFIED="1694568234939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$14627.coverage" NAME="14627 Coverage Results" MODIFIED="1707633313394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/binary_search" />
     <SUITE FILE_PATH="coverage/ProblemSolving$15685.coverage" NAME="15685 Coverage Results" MODIFIED="1694519867651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/simulation" />
@@ -892,8 +958,10 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$2776.coverage" NAME="2776 Coverage Results" MODIFIED="1727740915914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/hash" />
     <SUITE FILE_PATH="coverage/ProblemSolving$27172.coverage" NAME="27172 Coverage Results" MODIFIED="1719847542351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2096.coverage" NAME="2096 Coverage Results" MODIFIED="1719762097725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dp" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$5568.coverage" NAME="5568 Coverage Results" MODIFIED="1730716229360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bruteforce" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1654.coverage" NAME="1654 Coverage Results" MODIFIED="1707638636605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/binary_search" />
     <SUITE FILE_PATH="coverage/ProblemSolving$12931.coverage" NAME="12931 Coverage Results" MODIFIED="1701397215522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$4446.coverage" NAME="4446 Coverage Results" MODIFIED="1730864389863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$____.coverage" NAME="뒤에 있는 큰 수 찾기 Coverage Results" MODIFIED="1679370988091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/ProblemSolving$10026.coverage" NAME="10026 Coverage Results" MODIFIED="1713708946204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bfs" />
     <SUITE FILE_PATH="coverage/ProblemSolving$19583.coverage" NAME="19583 Coverage Results" MODIFIED="1727765078341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/hash" />
@@ -905,6 +973,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$1990.coverage" NAME="1990 Coverage Results" MODIFIED="1700785660033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$17406.coverage" NAME="17406 Coverage Results" MODIFIED="1700186670540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$20291.coverage" NAME="20291 Coverage Results" MODIFIED="1695609725037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$1718.coverage" NAME="1718 Coverage Results" MODIFIED="1730384803973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20241031" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1374.coverage" NAME="1374 Coverage Results" MODIFIED="1684201359639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProblemSolving$14719.coverage" NAME="14719 Coverage Results" MODIFIED="1697164002460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1244.coverage" NAME="1244 Coverage Results" MODIFIED="1695000012321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
@@ -916,7 +985,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$1205.coverage" NAME="1205 Coverage Results" MODIFIED="1727258154971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/simulation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1753.coverage" NAME="1753 Coverage Results" MODIFIED="1680349410876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1717.coverage" NAME="1717 Coverage Results" MODIFIED="1690273298972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/union-find" />
-    <SUITE FILE_PATH="coverage/ProblemSolving$20303.coverage" NAME="20303 Coverage Results" MODIFIED="1690454761207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/union-find" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$20303.coverage" NAME="20303 Coverage Results" MODIFIED="1729329619335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/union-find" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1913.coverage" NAME="1913 Coverage Results" MODIFIED="1695260259376" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$19941.coverage" NAME="19941 Coverage Results" MODIFIED="1727282674960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/simulation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2012.coverage" NAME="2012 Coverage Results" MODIFIED="1691632008852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/greedy" />
@@ -933,6 +1002,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$9372.coverage" NAME="9372 Coverage Results" MODIFIED="1679630687217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/ProblemSolving$10994.coverage" NAME="10994 Coverage Results" MODIFIED="1695087964994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$7490.coverage" NAME="7490 Coverage Results" MODIFIED="1691765487329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backtracking" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$13913.coverage" NAME="13913 Coverage Results" MODIFIED="1727835226835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bfs" />
     <SUITE FILE_PATH="coverage/ProblemSolving$14675.coverage" NAME="14675 Coverage Results" MODIFIED="1701826591458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/greedy" />
     <SUITE FILE_PATH="coverage/ProblemSolving$5549.coverage" NAME="5549 Coverage Results" MODIFIED="1722873875154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/prefixsum" />
     <SUITE FILE_PATH="coverage/ProblemSolving$11057.coverage" NAME="11057 Coverage Results" MODIFIED="1700617139312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
@@ -961,6 +1031,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$13168.coverage" NAME="13168 Coverage Results" MODIFIED="1689581729028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/floyd" />
     <SUITE FILE_PATH="coverage/ProblemSolving$15810.coverage" NAME="15810 Coverage Results" MODIFIED="1707634048973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/binary_search" />
     <SUITE FILE_PATH="coverage/ProblemSolving$11441.coverage" NAME="11441 Coverage Results" MODIFIED="1707306070610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/prefixsum" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$11049.coverage" NAME="11049 Coverage Results" MODIFIED="1729344234009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dp" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1.coverage" NAME="1 Coverage Results" MODIFIED="1704809421887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/kakako2023" />
     <SUITE FILE_PATH="coverage/ProblemSolving$unioin_find.coverage" NAME="unioin&amp;find Coverage Results" MODIFIED="1680507535701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProblemSolving$18311.coverage" NAME="18311 Coverage Results" MODIFIED="1698285414811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
@@ -987,6 +1058,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$7662.coverage" NAME="7662 Coverage Results" MODIFIED="1704936266430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/heap" />
     <SUITE FILE_PATH="coverage/ProblemSolving$17836.coverage" NAME="17836 Coverage Results" MODIFIED="1697444481828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bfs" />
     <SUITE FILE_PATH="coverage/ProblemSolving$11000.coverage" NAME="11000 Coverage Results" MODIFIED="1694609736558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/greedy" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$1360.coverage" NAME="1360 Coverage Results" MODIFIED="1729569894102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2667.coverage" NAME="2667 Coverage Results" MODIFIED="1679500127816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2578.coverage" NAME="2578 Coverage Results" MODIFIED="1692261399908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$sam1.coverage" NAME="sam1 Coverage Results" MODIFIED="1704433913488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
@@ -1004,6 +1076,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$22871.coverage" NAME="22871 Coverage Results" MODIFIED="1701655063244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1106.coverage" NAME="1106 Coverage Results" MODIFIED="1691027345695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
     <SUITE FILE_PATH="coverage/ProblemSolving$17128.coverage" NAME="17128 Coverage Results" MODIFIED="1699236051228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$16946.coverage" NAME="16946 Coverage Results" MODIFIED="1729337951090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bfs" />
     <SUITE FILE_PATH="coverage/ProblemSolving$14863.coverage" NAME="14863 Coverage Results" MODIFIED="1705029397665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$Sliding_Window_Maximum.coverage" NAME="Sliding Window Maximum Coverage Results" MODIFIED="1688541011345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sliding window" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1405.coverage" NAME="1405 Coverage Results" MODIFIED="1685607760534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backtracking" />
@@ -1013,6 +1086,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$2921.coverage" NAME="2921 Coverage Results" MODIFIED="1703121039570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$10844.coverage" NAME="10844 Coverage Results" MODIFIED="1709001939853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$22945.coverage" NAME="22945 Coverage Results" MODIFIED="1719903826115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/twopointer" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$2607.coverage" NAME="2607 Coverage Results" MODIFIED="1730292902105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProblemSolving$16234.coverage" NAME="16234 Coverage Results" MODIFIED="1693792601206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bfs" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1446.coverage" NAME="1446 Coverage Results" MODIFIED="1702601628530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$14494.coverage" NAME="14494 Coverage Results" MODIFIED="1727352757788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dp" />
@@ -1020,6 +1094,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$1316.coverage" NAME="1316 Coverage Results" MODIFIED="1692528863406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$12933.coverage" NAME="12933 Coverage Results" MODIFIED="1695348478723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$3020.coverage" NAME="3020 Coverage Results" MODIFIED="1695170262174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/greedy" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$2422.coverage" NAME="2422 Coverage Results" MODIFIED="1730881765804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bruteforce" />
     <SUITE FILE_PATH="coverage/ProblemSolving$22233.coverage" NAME="22233 Coverage Results" MODIFIED="1727322471055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/hash" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1003.coverage" NAME="1003 Coverage Results" MODIFIED="1707203587855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dp" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2839.coverage" NAME="2839 Coverage Results" MODIFIED="1692195417245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dp" />
@@ -1027,12 +1102,15 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$1260.coverage" NAME="1260 Coverage Results" MODIFIED="1679470650462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/ProblemSolving$6603.coverage" NAME="6603 Coverage Results" MODIFIED="1698284364805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />
     <SUITE FILE_PATH="coverage/ProblemSolving$22857.coverage" NAME="22857 Coverage Results" MODIFIED="1719803757011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dp" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$14500.coverage" NAME="14500 Coverage Results" MODIFIED="1729434338614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProblemSolving$17398.coverage" NAME="17398 Coverage Results" MODIFIED="1709274150189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/union-find" />
     <SUITE FILE_PATH="coverage/ProblemSolving$7682.coverage" NAME="7682 Coverage Results" MODIFIED="1710727544072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$10427.coverage" NAME="10427 Coverage Results" MODIFIED="1727669652596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/prefixsum" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$1021.coverage" NAME="1021 Coverage Results" MODIFIED="1727832067066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/deque" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1711.coverage" NAME="1711 Coverage Results" MODIFIED="1722816532129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/math" />
-    <SUITE FILE_PATH="coverage/ProblemSolving$1515.coverage" NAME="1515 Coverage Results" MODIFIED="1727589850364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/greedy" />
-    <SUITE FILE_PATH="coverage/ProblemSolving$2922.coverage" NAME="2922 Coverage Results" MODIFIED="1702428750898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$1515.coverage" NAME="1515 Coverage Results" MODIFIED="1730290767263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$11779.coverage" NAME="11779 Coverage Results" MODIFIED="1727840303235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dijkstra" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$2922.coverage" NAME="2922 Coverage Results" MODIFIED="1730873314251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$5214.coverage" NAME="5214 Coverage Results" MODIFIED="1687705266367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bfs" />
     <SUITE FILE_PATH="coverage/ProblemSolving$3079.coverage" NAME="3079 Coverage Results" MODIFIED="1679963655185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1806.coverage" NAME="1806 Coverage Results" MODIFIED="1719810881609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/twopointer" />
@@ -1042,7 +1120,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$1780.coverage" NAME="1780 Coverage Results" MODIFIED="1679993384654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1697.coverage" NAME="1697 Coverage Results" MODIFIED="1707919241964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bfs" />
     <SUITE FILE_PATH="coverage/ProblemSolving$19699.coverage" NAME="19699 Coverage Results" MODIFIED="1690932430912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backtracking" />
-    <SUITE FILE_PATH="coverage/ProblemSolving$1092.coverage" NAME="1092 Coverage Results" MODIFIED="1690617613409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/greedy" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$1092.coverage" NAME="1092 Coverage Results" MODIFIED="1729565100990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/greedy" />
     <SUITE FILE_PATH="coverage/ProblemSolving$21608.coverage" NAME="21608 Coverage Results" MODIFIED="1719461406208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$6443.coverage" NAME="6443 Coverage Results" MODIFIED="1695351113489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />
     <SUITE FILE_PATH="coverage/ProblemSolving$11478.coverage" NAME="11478 Coverage Results" MODIFIED="1727763538861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
@@ -1080,6 +1158,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$20924.coverage" NAME="20924 Coverage Results" MODIFIED="1694073979369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dfs" />
     <SUITE FILE_PATH="coverage/ProblemSolving$21939.coverage" NAME="21939 Coverage Results" MODIFIED="1694566015764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2211.coverage" NAME="2211 Coverage Results" MODIFIED="1691130335907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mst" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$16439.coverage" NAME="16439 Coverage Results" MODIFIED="1730739147560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bruteforce" />
     <SUITE FILE_PATH="coverage/ProblemSolving$15831.coverage" NAME="15831 Coverage Results" MODIFIED="1719555618041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/twopointer" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1174.coverage" NAME="1174 Coverage Results" MODIFIED="1695174451095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />
     <SUITE FILE_PATH="coverage/ProblemSolving$7511.coverage" NAME="7511 Coverage Results" MODIFIED="1705372143097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/union-find" />
@@ -1099,6 +1178,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$2573.coverage" NAME="2573 Coverage Results" MODIFIED="1683878695871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1342.coverage" NAME="1342 Coverage Results" MODIFIED="1700185077374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2589.coverage" NAME="2589 Coverage Results" MODIFIED="1696147544170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bfs" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$1969.coverage" NAME="1969 Coverage Results" MODIFIED="1730880281164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bruteforce" />
     <SUITE FILE_PATH="coverage/ProblemSolving$21923.coverage" NAME="21923 Coverage Results" MODIFIED="1714195608184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dp" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2.coverage" NAME="2 Coverage Results" MODIFIED="1700905610128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/kakako2023" />
     <SUITE FILE_PATH="coverage/ProblemSolving$10814.coverage" NAME="10814 Coverage Results" MODIFIED="1723353234712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/sort" />

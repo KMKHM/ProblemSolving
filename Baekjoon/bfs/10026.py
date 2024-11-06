@@ -26,9 +26,9 @@ def bfs1(x, y, visited):
             if not visited[nx][ny] and board[cx][cy] == board[nx][ny]:
                 visited[nx][ny] = 1
                 q.append([nx, ny])
-
-for i in range(n):
-    for j in range(n):
+#
+# for i in range(n):
+#     for j in range(n):
 
 
 

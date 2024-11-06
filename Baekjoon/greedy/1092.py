@@ -1,44 +1,32 @@
+"""
+배
+문제: https://www.acmicpc.net/problem/1092
+"""
 import sys
-from collections import deque
 
 input = sys.stdin.readline
 
+N = int(input())
+cranes = list(map(int, input().split()))
+M = int(input())
+boxes = list(map(int, input().split()))
 
+cranes.sort(reverse=True)
+boxes.sort(reverse=True)
 
-# 크레인 수
-n = int(input())
+cnt = 0
 
-# 크레인 제한
-nums = sorted(list(map(int, input().split())), reverse=True)
+if boxes[0] > cranes[0]:
+    cnt = -1
+else:
+    while boxes:
+        for c in cranes:
+            if boxes and c < boxes[-1]:
+                continue
+            for b in boxes:
+                if c >= b:
+                    boxes.remove(b)
+                    break
+        cnt += 1
 
-
-m = int(input())
-
-box = deque(sorted(list(map(int, input().split())), reverse=True))
-
-if nums[0] < box[0]:
-    print(-1)
-    sys.exit(0)
-
-# 정답
-ans = 0
-
-check = [0] * m
-
-while box:
-    ans += 1
-    for num in nums:
-        for b in box:
-            if num >= b:
-                box.popleft()
-                break
-
-
-print(ans)
-
-
-
-
-
-
-
+print(cnt)
