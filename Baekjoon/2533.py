@@ -21,7 +21,7 @@ for _ in range(n-1):
 # 방문체크
 check = [0] * (n+1)
 
-# dp 테이블 => dp[i][0] = i가 얼리 어답터인 경우 최소 정점의 수 / dp[i][1] = i가 얼리 어답터가 아닌 경우 최소 정점의 수
+# DynamicProgramming 테이블 => DynamicProgramming[i][0] = i가 얼리 어답터인 경우 최소 정점의 수 / DynamicProgramming[i][1] = i가 얼리 어답터가 아닌 경우 최소 정점의 수
 dp = [[0, 0] for _ in range(n+1)]
 
 def dfs(v):

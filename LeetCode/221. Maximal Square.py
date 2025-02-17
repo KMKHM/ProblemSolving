@@ -12,7 +12,7 @@ class Solution:
         if n == 0:
             return 0
 
-        # dp 테이블
+        # DynamicProgramming 테이블
         dp = [[0] * (m + 1) for _ in range(n + 1)]
 
         val = 0

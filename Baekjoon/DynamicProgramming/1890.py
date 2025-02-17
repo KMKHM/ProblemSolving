@@ -10,7 +10,7 @@ n = int(input())
 
 board = [list(map(int, input().split())) for _ in range(n)]
 
-# dp 테이블
+# DynamicProgramming 테이블
 dp = [[0]*n for _ in range(n)]
 
 # 시작지점

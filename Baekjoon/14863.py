@@ -8,7 +8,7 @@ input = sys.stdin.readline
 
 n, k = map(int, input().split())
 
-# dp[i][j] = 현재 i 번째 도시에 있고, 현재까지 걸리시간이 j일 때 최대값
+# DynamicProgramming[i][j] = 현재 i 번째 도시에 있고, 현재까지 걸리시간이 j일 때 최대값
 dp = [[0] * (100001) for _ in range(n+1)]
 
 for i in range(1, n+1):

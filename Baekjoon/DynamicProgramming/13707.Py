@@ -12,7 +12,7 @@ if n == 1:
 
 mod = 1000000000
 
-# dp 테이블
+# DynamicProgramming 테이블
 dp = [[0]*(n+1) for _ in range(k+1)]
 
 # K = 1 인 경우 무조건 1가지 경우의 수
