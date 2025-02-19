@@ -19,3 +19,4 @@ mod = 123456789
 
 dp = [0] * (n+1)
 
+print(prime)
