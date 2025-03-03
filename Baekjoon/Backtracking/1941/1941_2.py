@@ -16,7 +16,7 @@ positions = [(i, j) for i in range(5) for j in range(5)]
 dx = [1, -1, 0, 0]
 dy = [0, 0, 1, -1]
 
-# 인접 확인용 BFS 함수
+# 인접 확인용 BFS&DFS 함수
 def is_adjacent(selected):
     queue = deque([selected[0]])
     visited = set([selected[0]])

@@ -19,7 +19,7 @@ for _ in range(n-1):
     graph[a].append([b, d])
     graph[b].append([a, d])
 
-# BFS 함수
+# BFS&DFS 함수
 def bfs(start, end, visited):
     q = deque()
     # 초기 거리는 0이다.
