@@ -11,7 +11,7 @@ input = sys.stdin.readline
 # 노드의 수
 n = int(input())
 
-# tree
+# Tree
 tree = [[] for _ in range(n+1)]
 
 # 연결된 노드 입력
