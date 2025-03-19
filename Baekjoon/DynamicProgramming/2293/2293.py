@@ -20,5 +20,6 @@ for coin in coins:
     for i in range(coin, k+1):
         if i >= coin:
             dp[i] += dp[i-coin]
+        print(i, coin, dp)
 print(dp[k])
 
