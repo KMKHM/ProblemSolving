@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45103e90-55c1-4c00-9d23-685a7de88982" name="Changes" comment="" />
+    <list default="true" id="45103e90-55c1-4c00-9d23-685a7de88982" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Baekjoon/9935.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/string/12919/12919.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/string/12919/12919_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/string/20437/20437.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/snapshot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,191 +45,196 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1021.executor&quot;: &quot;Run&quot;,
-    &quot;Python.10427.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1043.executor&quot;: &quot;Run&quot;,
-    &quot;Python.10431.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1059.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1071.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1072.executor&quot;: &quot;Run&quot;,
-    &quot;Python.10814.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1092.executor&quot;: &quot;Run&quot;,
-    &quot;Python.11049.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1105.executor&quot;: &quot;Run&quot;,
-    &quot;Python.11478.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1157.executor&quot;: &quot;Run&quot;,
-    &quot;Python.11659.executor&quot;: &quot;Run&quot;,
-    &quot;Python.11660.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1167.executor&quot;: &quot;Run&quot;,
-    &quot;Python.11723.executor&quot;: &quot;Run&quot;,
-    &quot;Python.11779.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1197.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1205.executor&quot;: &quot;Run&quot;,
-    &quot;Python.12871.executor&quot;: &quot;Run&quot;,
-    &quot;Python.12896.executor&quot;: &quot;Run&quot;,
-    &quot;Python.12896_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.12908.executor&quot;: &quot;Run&quot;,
-    &quot;Python.13144.executor&quot;: &quot;Run&quot;,
-    &quot;Python.13301.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1339.executor&quot;: &quot;Run&quot;,
-    &quot;Python.13414.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1360.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1368.executor&quot;: &quot;Run&quot;,
-    &quot;Python.13702.executor&quot;: &quot;Run&quot;,
-    &quot;Python.13711.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1389.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1389_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.13913.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1406.executor&quot;: &quot;Run&quot;,
-    &quot;Python.14226.executor&quot;: &quot;Run&quot;,
-    &quot;Python.14247.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1439.executor&quot;: &quot;Run&quot;,
-    &quot;Python.14391.executor&quot;: &quot;Run&quot;,
-    &quot;Python.14494.executor&quot;: &quot;Run&quot;,
-    &quot;Python.14500.executor&quot;: &quot;Run&quot;,
-    &quot;Python.14501.executor&quot;: &quot;Run&quot;,
-    &quot;Python.14502.executor&quot;: &quot;Run&quot;,
-    &quot;Python.14503.executor&quot;: &quot;Run&quot;,
-    &quot;Python.14621.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1477.executor&quot;: &quot;Run&quot;,
-    &quot;Python.14890.executor&quot;: &quot;Run&quot;,
-    &quot;Python.14891.executor&quot;: &quot;Run&quot;,
-    &quot;Python.14925.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1515.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1522.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1535.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1543.executor&quot;: &quot;Run&quot;,
-    &quot;Python.15649.executor&quot;: &quot;Run&quot;,
-    &quot;Python.15683.executor&quot;: &quot;Run&quot;,
-    &quot;Python.15685.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1600.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16035.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16171.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1620.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16236.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16398.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16400.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16439.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16929.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16938.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16943.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16946.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16968.executor&quot;: &quot;Run&quot;,
-    &quot;Python.17090.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1711.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1718.executor&quot;: &quot;Run&quot;,
-    &quot;Python.17265_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.17266.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1756.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1756_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.17780.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1786.executor&quot;: &quot;Run&quot;,
-    &quot;Python.19236.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1941.executor&quot;: &quot;Run&quot;,
-    &quot;Python.19542.executor&quot;: &quot;Run&quot;,
-    &quot;Python.19583.executor&quot;: &quot;Run&quot;,
-    &quot;Python.19637.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1967.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1969.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1991.executor&quot;: &quot;Run&quot;,
-    &quot;Python.19941.executor&quot;: &quot;Run&quot;,
-    &quot;Python.20006.executor&quot;: &quot;Run&quot;,
-    &quot;Python.20007.executor&quot;: &quot;Run&quot;,
-    &quot;Python.20007_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.20056.executor&quot;: &quot;Run&quot;,
-    &quot;Python.20125.executor&quot;: &quot;Run&quot;,
-    &quot;Python.20168.executor&quot;: &quot;Run&quot;,
-    &quot;Python.20301.executor&quot;: &quot;Run&quot;,
-    &quot;Python.20303.executor&quot;: &quot;Run&quot;,
-    &quot;Python.20413.executor&quot;: &quot;Run&quot;,
-    &quot;Python.20438.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2116.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2146.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2161.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2167.executor&quot;: &quot;Run&quot;,
-    &quot;Python.21925.executor&quot;: &quot;Run&quot;,
-    &quot;Python.21941.executor&quot;: &quot;Run&quot;,
-    &quot;Python.21943.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2210.executor&quot;: &quot;Run&quot;,
-    &quot;Python.22233.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2228.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2285.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2292.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2293.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2304.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2342.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2343.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2346.executor&quot;: &quot;Run&quot;,
-    &quot;Python.23971.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2417.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2422.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2502.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2531.executor&quot;: &quot;Run&quot;,
-    &quot;Python.25757.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2607.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2623.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2660.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2758.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2776.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2816.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2872.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2922.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2982.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3020.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3055.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4095.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4097.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4446.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4659.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4781.executor&quot;: &quot;Run&quot;,
-    &quot;Python.4883.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5073.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5549.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5568.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5639.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6118.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6236.executor&quot;: &quot;Run&quot;,
-    &quot;Python.7568.executor&quot;: &quot;Run&quot;,
-    &quot;Python.7785.executor&quot;: &quot;Run&quot;,
-    &quot;Python.8979.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9017.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9084.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9094.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9095.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9184.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.9251.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9252.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9375.executor&quot;: &quot;Run&quot;,
-    &quot;Python.9527.executor&quot;: &quot;Run&quot;,
-    &quot;Python.basic.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pandas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pd.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kmk/Desktop/ProblemSolving/Baekjoon/DynamicProgramming/12865&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.1.executor": "Run",
+    "Python.1021.executor": "Run",
+    "Python.10427.executor": "Run",
+    "Python.1043.executor": "Run",
+    "Python.10431.executor": "Run",
+    "Python.1059.executor": "Run",
+    "Python.1071.executor": "Run",
+    "Python.1072.executor": "Run",
+    "Python.10814.executor": "Run",
+    "Python.1092.executor": "Run",
+    "Python.11049.executor": "Run",
+    "Python.1105.executor": "Run",
+    "Python.11478.executor": "Run",
+    "Python.1157.executor": "Run",
+    "Python.11659.executor": "Run",
+    "Python.11660.executor": "Run",
+    "Python.1167.executor": "Run",
+    "Python.11723.executor": "Run",
+    "Python.11779.executor": "Run",
+    "Python.1197.executor": "Run",
+    "Python.1205.executor": "Run",
+    "Python.12871.executor": "Run",
+    "Python.12896.executor": "Run",
+    "Python.12896_2.executor": "Run",
+    "Python.12908.executor": "Run",
+    "Python.12919.executor": "Run",
+    "Python.12919_2.executor": "Run",
+    "Python.13144.executor": "Run",
+    "Python.13301.executor": "Run",
+    "Python.1339.executor": "Run",
+    "Python.13414.executor": "Run",
+    "Python.1360.executor": "Run",
+    "Python.1368.executor": "Run",
+    "Python.13702.executor": "Run",
+    "Python.13711.executor": "Run",
+    "Python.1389.executor": "Run",
+    "Python.1389_2.executor": "Run",
+    "Python.13913.executor": "Run",
+    "Python.1406.executor": "Run",
+    "Python.14226.executor": "Run",
+    "Python.14247.executor": "Run",
+    "Python.1439.executor": "Run",
+    "Python.14391.executor": "Run",
+    "Python.14494.executor": "Run",
+    "Python.14500.executor": "Run",
+    "Python.14501.executor": "Run",
+    "Python.14502.executor": "Run",
+    "Python.14503.executor": "Run",
+    "Python.14621.executor": "Run",
+    "Python.1477.executor": "Run",
+    "Python.14890.executor": "Run",
+    "Python.14891.executor": "Run",
+    "Python.14925.executor": "Run",
+    "Python.1515.executor": "Run",
+    "Python.1522.executor": "Run",
+    "Python.1535.executor": "Run",
+    "Python.1543.executor": "Run",
+    "Python.15649.executor": "Run",
+    "Python.15683.executor": "Run",
+    "Python.15685.executor": "Run",
+    "Python.1600.executor": "Run",
+    "Python.16035.executor": "Run",
+    "Python.16171.executor": "Run",
+    "Python.1620.executor": "Run",
+    "Python.16236.executor": "Run",
+    "Python.16398.executor": "Run",
+    "Python.16400.executor": "Run",
+    "Python.16439.executor": "Run",
+    "Python.16929.executor": "Run",
+    "Python.16938.executor": "Run",
+    "Python.16943.executor": "Run",
+    "Python.16946.executor": "Run",
+    "Python.16968.executor": "Run",
+    "Python.17090.executor": "Run",
+    "Python.1711.executor": "Run",
+    "Python.1718.executor": "Run",
+    "Python.17265_1.executor": "Run",
+    "Python.17266.executor": "Run",
+    "Python.1756.executor": "Run",
+    "Python.1756_2.executor": "Run",
+    "Python.17780.executor": "Run",
+    "Python.1786.executor": "Run",
+    "Python.19236.executor": "Run",
+    "Python.1941.executor": "Run",
+    "Python.19542.executor": "Run",
+    "Python.19583.executor": "Run",
+    "Python.19637.executor": "Run",
+    "Python.1967.executor": "Run",
+    "Python.1969.executor": "Run",
+    "Python.1991.executor": "Run",
+    "Python.19941.executor": "Run",
+    "Python.20006.executor": "Run",
+    "Python.20007.executor": "Run",
+    "Python.20007_2.executor": "Run",
+    "Python.20056.executor": "Run",
+    "Python.20125.executor": "Run",
+    "Python.20168.executor": "Run",
+    "Python.20301.executor": "Run",
+    "Python.20303.executor": "Run",
+    "Python.20413.executor": "Run",
+    "Python.20437.executor": "Run",
+    "Python.20438.executor": "Run",
+    "Python.2116.executor": "Run",
+    "Python.2146.executor": "Run",
+    "Python.2161.executor": "Run",
+    "Python.2167.executor": "Run",
+    "Python.21925.executor": "Run",
+    "Python.21941.executor": "Run",
+    "Python.21943.executor": "Run",
+    "Python.2210.executor": "Run",
+    "Python.22233.executor": "Run",
+    "Python.2228.executor": "Run",
+    "Python.2285.executor": "Run",
+    "Python.2292.executor": "Run",
+    "Python.2293.executor": "Run",
+    "Python.2304.executor": "Run",
+    "Python.2342.executor": "Run",
+    "Python.2343.executor": "Run",
+    "Python.2346.executor": "Run",
+    "Python.23971.executor": "Run",
+    "Python.2417.executor": "Run",
+    "Python.2422.executor": "Run",
+    "Python.2502.executor": "Run",
+    "Python.2531.executor": "Run",
+    "Python.25757.executor": "Run",
+    "Python.2607.executor": "Run",
+    "Python.2623.executor": "Run",
+    "Python.2660.executor": "Run",
+    "Python.2758.executor": "Run",
+    "Python.2776.executor": "Run",
+    "Python.2816.executor": "Run",
+    "Python.2872.executor": "Run",
+    "Python.2922.executor": "Run",
+    "Python.2982.executor": "Run",
+    "Python.3020.executor": "Run",
+    "Python.3055.executor": "Run",
+    "Python.4095.executor": "Run",
+    "Python.4097.executor": "Run",
+    "Python.4446.executor": "Run",
+    "Python.4659.executor": "Run",
+    "Python.4781.executor": "Run",
+    "Python.4883.executor": "Run",
+    "Python.5073.executor": "Run",
+    "Python.5549.executor": "Run",
+    "Python.5568.executor": "Run",
+    "Python.5639.executor": "Run",
+    "Python.6118.executor": "Run",
+    "Python.6236.executor": "Run",
+    "Python.7568.executor": "Run",
+    "Python.7785.executor": "Run",
+    "Python.8979.executor": "Run",
+    "Python.9017.executor": "Run",
+    "Python.9084.executor": "Run",
+    "Python.9094.executor": "Run",
+    "Python.9095.executor": "Run",
+    "Python.9184.executor": "Debug",
+    "Python.9251.executor": "Run",
+    "Python.9252.executor": "Run",
+    "Python.9375.executor": "Run",
+    "Python.9527.executor": "Run",
+    "Python.9935.executor": "Run",
+    "Python.basic.executor": "Run",
+    "Python.pandas.executor": "Run",
+    "Python.pd.executor": "Run",
+    "Python.snapshot.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/kmk/Desktop/ProblemSolving/Baekjoon/string/12919",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Baekjoon/string/12919" />
       <recent name="$PROJECT_DIR$/Baekjoon/DynamicProgramming/12865" />
       <recent name="$PROJECT_DIR$/Baekjoon/BFS&amp;DFS/12896" />
       <recent name="$PROJECT_DIR$/Baekjoon/BFS/1389" />
       <recent name="$PROJECT_DIR$/Baekjoon/Backtracking/1941" />
-      <recent name="$PROJECT_DIR$/Baekjoon/BinarySearch/1756" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Baekjoon/Union-Find/1043" />
@@ -235,8 +247,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54" />
-        <option value="bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26574.90" />
+        <option value="bundled-python-sdk-c1fac28bca04-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26574.90" />
       </set>
     </attachedChunks>
   </component>
@@ -845,6 +857,18 @@
       <workItem from="1746846464107" duration="1242000" />
       <workItem from="1746930846204" duration="37000" />
       <workItem from="1747010195341" duration="38000" />
+      <workItem from="1747097270347" duration="45000" />
+      <workItem from="1747809486856" duration="1288000" />
+      <workItem from="1748830925843" duration="1323000" />
+      <workItem from="1748843391629" duration="761000" />
+      <workItem from="1748847032585" duration="601000" />
+      <workItem from="1749002578757" duration="1789000" />
+      <workItem from="1749023280911" duration="45000" />
+      <workItem from="1749023360311" duration="767000" />
+      <workItem from="1749451629304" duration="1000" />
+      <workItem from="1749885467582" duration="1000" />
+      <workItem from="1749890901324" duration="21000" />
+      <workItem from="1750054288590" duration="2815000" />
     </task>
     <servers />
   </component>
@@ -872,7 +896,9 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$1456.coverage" NAME="1456 Coverage Results" MODIFIED="1684200142958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProblemSolving$13460.coverage" NAME="13460 Coverage Results" MODIFIED="1696678679920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bfs" />
     <SUITE FILE_PATH="coverage/ProblemSolving$3649.coverage" NAME="3649 Coverage Results" MODIFIED="1707729940474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/binary_search" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$snapshot.coverage" NAME="snapshot Coverage Results" MODIFIED="1747809949715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/ProblemSolving$19236.coverage" NAME="19236 Coverage Results" MODIFIED="1742720373403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/simulation/19236" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$20437.coverage" NAME="20437 Coverage Results" MODIFIED="1750058240806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/string/20437" />
     <SUITE FILE_PATH="coverage/ProblemSolving$6137.coverage" NAME="6137 Coverage Results" MODIFIED="1701050326460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$14620.coverage" NAME="14620 Coverage Results" MODIFIED="1709978274896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$20924.coverage" NAME="20924 Coverage Results" MODIFIED="1694073979369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dfs" />
@@ -1099,6 +1125,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$basic.coverage" NAME="basic Coverage Results" MODIFIED="1742051141316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/KMP" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2758.coverage" NAME="2758 Coverage Results" MODIFIED="1727150394170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dp" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2228.coverage" NAME="2228 Coverage Results" MODIFIED="1731136863697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$12919.coverage" NAME="12919 Coverage Results" MODIFIED="1749003788707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/string/12919" />
     <SUITE FILE_PATH="coverage/ProblemSolving$19583.coverage" NAME="19583 Coverage Results" MODIFIED="1727765078341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/hash" />
     <SUITE FILE_PATH="coverage/ProblemSolving$5766.coverage" NAME="5766 Coverage Results" MODIFIED="1692537069499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$17090.coverage" NAME="17090 Coverage Results" MODIFIED="1744957122860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/BFS&amp;DFS/17090" />
@@ -1130,6 +1157,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$14889.coverage" NAME="14889 Coverage Results" MODIFIED="1697420081799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />
     <SUITE FILE_PATH="coverage/ProblemSolving$15831.coverage" NAME="15831 Coverage Results" MODIFIED="1719555618041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/twopointer" />
     <SUITE FILE_PATH="coverage/ProblemSolving$11053.coverage" NAME="11053 Coverage Results" MODIFIED="1692196099937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dp" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$12919_2.coverage" NAME="12919_2 Coverage Results" MODIFIED="1749004403629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/string/12919" />
     <SUITE FILE_PATH="coverage/ProblemSolving$7511.coverage" NAME="7511 Coverage Results" MODIFIED="1705372143097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/union-find" />
     <SUITE FILE_PATH="coverage/ProblemSolving$16439.coverage" NAME="16439 Coverage Results" MODIFIED="1730739147560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bruteforce" />
     <SUITE FILE_PATH="coverage/ProblemSolving$17836.coverage" NAME="17836 Coverage Results" MODIFIED="1697444481828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bfs" />
@@ -1356,6 +1384,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$test123.coverage" NAME="test123 Coverage Results" MODIFIED="1696674201022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$18223.coverage" NAME="18223 Coverage Results" MODIFIED="1689038658216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dijkstra" />
     <SUITE FILE_PATH="coverage/ProblemSolving$9184.coverage" NAME="9184 Coverage Results" MODIFIED="1739271161332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/9184" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$9935.coverage" NAME="9935 Coverage Results" MODIFIED="1748831793481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2504.coverage" NAME="2504 Coverage Results" MODIFIED="1689553713594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stack" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2056.coverage" NAME="2056 Coverage Results" MODIFIED="1702432490156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2234.coverage" NAME="2234 Coverage Results" MODIFIED="1700706525087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bfs" />
