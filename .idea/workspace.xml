@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45103e90-55c1-4c00-9d23-685a7de88982" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Baekjoon/1, 2, 3 더하기 8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/감소하는 수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/공통 부분 문자열.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/도로의 개수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/도토리 숨기기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/동물원.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/롤케이크.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/맥주 마시면서 걸어가기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/백양로 브레이크.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/소수상근수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/쉬운 계단 수.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/중량제한.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/최고의 팀 만들기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Baekjoon/컨베이어 벨트 위의 로봇.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/가장 큰 감소 부분 수열.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/리모컨.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/소-난다!.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/연산자 끼워넣기 (2).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/일요일 아침의 데이트.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/타일 위의 대각선.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Baekjoon/회의실 배정 3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -245,6 +238,7 @@
     "Python.pandas.executor": "Run",
     "Python.pd.executor": "Run",
     "Python.snapshot.executor": "Run",
+    "Python.가장 큰 감소 부분 수열.executor": "Run",
     "Python.감소하는 수.executor": "Run",
     "Python.공통 부분 문자열.executor": "Run",
     "Python.나무박멸.executor": "Run",
@@ -253,13 +247,19 @@
     "Python.도토리 숨기기.executor": "Run",
     "Python.동물원.executor": "Run",
     "Python.롤케이크.executor": "Run",
+    "Python.리모컨.executor": "Run",
     "Python.맥주 마시면서 걸어가기.executor": "Run",
     "Python.맥주 축제.executor": "Run",
     "Python.메이즈 러너.executor": "Debug",
     "Python.백양로 브레이크.executor": "Run",
+    "Python.소-난다!.executor": "Run",
     "Python.소수상근수.executor": "Run",
+    "Python.연산자 끼워넣기 (2).executor": "Run",
+    "Python.일요일 아침의 데이트.executor": "Run",
     "Python.최고의 팀 만들기.executor": "Run",
     "Python.컨베이어 벨트 위의 로봇.executor": "Run",
+    "Python.타일 위의 대각선.executor": "Run",
+    "Python.회의실 배정 3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -962,7 +962,9 @@
       <workItem from="1759974838585" duration="1544000" />
       <workItem from="1760079426894" duration="1451000" />
       <workItem from="1760099339259" duration="6402000" />
-      <workItem from="1760240437351" duration="1121000" />
+      <workItem from="1760240437351" duration="2628000" />
+      <workItem from="1760612091568" duration="2589000" />
+      <workItem from="1760788539673" duration="11190000" />
     </task>
     <servers />
   </component>
@@ -1005,6 +1007,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$5639.coverage" NAME="5639 Coverage Results" MODIFIED="1742210283772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/Tree/5639" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1446.coverage" NAME="1446 Coverage Results" MODIFIED="1702601628530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$aa.coverage" NAME="aa Coverage Results" MODIFIED="1701658191448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$__3.coverage" NAME="회의실 배정 3 Coverage Results" MODIFIED="1760870458034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$18311.coverage" NAME="18311 Coverage Results" MODIFIED="1698285414811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2606.coverage" NAME="2606 Coverage Results" MODIFIED="1679471912332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/ProblemSolving$_.coverage" NAME="백양로 브레이크 Coverage Results" MODIFIED="1760080115737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
@@ -1190,7 +1193,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$11779.coverage" NAME="11779 Coverage Results" MODIFIED="1727840303235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dijkstra" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2285.coverage" NAME="2285 Coverage Results" MODIFIED="1738945295119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dijkstra/2285" />
     <SUITE FILE_PATH="coverage/ProblemSolving$14699.coverage" NAME="14699 Coverage Results" MODIFIED="1700620183177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
-    <SUITE FILE_PATH="coverage/ProblemSolving$.coverage" NAME="소수상근수 Coverage Results" MODIFIED="1760241494986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$.coverage" NAME="리모컨 Coverage Results" MODIFIED="1760254858016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$20006.coverage" NAME="20006 Coverage Results" MODIFIED="1727344627461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/simulation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$12919.coverage" NAME="12919 Coverage Results" MODIFIED="1749003788707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/string/12919" />
     <SUITE FILE_PATH="coverage/ProblemSolving$8983.coverage" NAME="8983 Coverage Results" MODIFIED="1691718286435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/implementation" />
@@ -1229,6 +1232,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$11404.coverage" NAME="11404 Coverage Results" MODIFIED="1689558305405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/floyd" />
     <SUITE FILE_PATH="coverage/ProblemSolving$15685.coverage" NAME="15685 Coverage Results" MODIFIED="1742031305576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/simulation/15685" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2982.coverage" NAME="2982 Coverage Results" MODIFIED="1723423362008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dijkstra" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$___2_.coverage" NAME="연산자 끼워넣기 (2) Coverage Results" MODIFIED="1760791232286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$20922.coverage" NAME="20922 Coverage Results" MODIFIED="1689126724982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dp" />
     <SUITE FILE_PATH="coverage/ProblemSolving$10703.coverage" NAME="10703 Coverage Results" MODIFIED="1699515438127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2776.coverage" NAME="2776 Coverage Results" MODIFIED="1727740915914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/hash" />
@@ -1280,7 +1284,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$20950.coverage" NAME="20950 Coverage Results" MODIFIED="1698112859873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />
     <SUITE FILE_PATH="coverage/ProblemSolving$22944.coverage" NAME="22944 Coverage Results" MODIFIED="1696472722928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/bfs" />
     <SUITE FILE_PATH="coverage/ProblemSolving$20301.coverage" NAME="20301 Coverage Results" MODIFIED="1727247765002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/simulation" />
-    <SUITE FILE_PATH="coverage/ProblemSolving$____.coverage" NAME="뒤에 있는 큰 수 찾기 Coverage Results" MODIFIED="1679370988091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$____.coverage" NAME="가장 큰 감소 부분 수열 Coverage Results" MODIFIED="1760613224873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1976.coverage" NAME="1976 Coverage Results" MODIFIED="1690279499423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/union-find" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1722.coverage" NAME="1722 Coverage Results" MODIFIED="1706850852872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$20007.coverage" NAME="20007 Coverage Results" MODIFIED="1738937190664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/dijkstra/20007" />
@@ -1358,7 +1362,7 @@
     <SUITE FILE_PATH="coverage/ProblemSolving$19949.coverage" NAME="19949 Coverage Results" MODIFIED="1697681304738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/backtracking" />
     <SUITE FILE_PATH="coverage/ProblemSolving$4485.coverage" NAME="4485 Coverage Results" MODIFIED="1679619189188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Greedy" />
     <SUITE FILE_PATH="coverage/ProblemSolving$1283.coverage" NAME="1283 Coverage Results" MODIFIED="1699322609199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/implementation" />
-    <SUITE FILE_PATH="coverage/ProblemSolving$__.coverage" NAME="공통 부분 문자열 Coverage Results" MODIFIED="1760104412647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
+    <SUITE FILE_PATH="coverage/ProblemSolving$__.coverage" NAME="일요일 아침의 데이트 Coverage Results" MODIFIED="1760876293473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
     <SUITE FILE_PATH="coverage/ProblemSolving$16562.coverage" NAME="16562 Coverage Results" MODIFIED="1708747002571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon/union-find" />
     <SUITE FILE_PATH="coverage/ProblemSolving$21318.coverage" NAME="21318 Coverage Results" MODIFIED="1691998090647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ProblemSolving$2533.coverage" NAME="2533 Coverage Results" MODIFIED="1703122981402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Baekjoon" />
