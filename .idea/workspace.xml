@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45103e90-55c1-4c00-9d23-685a7de88982" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/744. Find Smallest Letter Greater Than Target.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -975,7 +974,8 @@
       <workItem from="1768654507839" duration="115000" />
       <workItem from="1768736026692" duration="7011000" />
       <workItem from="1769518555446" duration="7000" />
-      <workItem from="1770105634071" duration="1673000" />
+      <workItem from="1770105634071" duration="4558000" />
+      <workItem from="1770529396818" duration="3000" />
     </task>
     <servers />
   </component>
